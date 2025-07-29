@@ -100,26 +100,7 @@ $('.exit-mobile').on('click', function(e){
 
 });
 
-$('.menu-mobile > li.menu-item-has-children > a').on('click', function(e){
-			
-			e.preventDefault();
-			e.stopPropagation();
-			
-			if ( $(this).parent().hasClass('menu-open') )
-			
-			$(this).parent().removeClass('menu-open');
-			
-			else {
-			
-			$(this).parent().addClass('menu-open');
-			
-			}
-																  
-			});
-			
-$('.menu-mobile > li > .sub-menu > li:has(ul.sub-menu)').addClass('menu-item-parent-2level');					
-	
-	// end mobile menu
+
 	
 // menu edge screen turn left
 
